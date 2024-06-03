@@ -1,0 +1,56 @@
+.containerpai {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+.containerdire {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+  display: grid;
+  text-align: center;
+}
+.containerInput {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  color: black;
+  outline: none;
+  width: 20vw;
+  height: 55px;
+  flex-direction: column;
+  margin-left: 12px;
+  margin-bottom: 10px;
+  font-size: 25px;
+}
+.foto {
+  width: 47vw;
+  height: 100vh;
+  border-top-right-radius: 25px;
+  border-bottom-right-radius: 25px;
+}
+.containerdireitapai {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 78px;
+}
+.button {
+  border-radius: 50px;
+  width: 210px;
+  line-height: 50px;
+  background-color: black;
+  border: solid;
+  text-align: center;
+  margin: 50px;
+}
+.text{
+    font-size: 50px;
+    margin-bottom: 100px;
+  }

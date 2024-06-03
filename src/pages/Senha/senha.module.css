@@ -1,0 +1,75 @@
+h1{
+    margin-left: 28px;
+}
+
+h2{
+    place-self: center;
+    margin-left: 25px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    flex-direction: row-reverse;
+}
+
+.containerText{
+    display: flex;
+    flex-direction: column;
+    margin-right: 110px;
+    margin-top: 30px;
+}   
+
+.text{
+    font-size: x-large;
+    place-self: center;
+}
+
+.perfil{
+    display: flex;
+    place-self: center;
+    width: 350px;
+    height: 350px;
+    background-color: gray;
+    border-radius: 500px;
+    margin: 50px;
+
+}
+
+.input{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: black ;
+    background-color: transparent;
+    outline: none;
+    width: 40vw;
+    height: 55px;
+    flex-direction: column;  
+    margin-right: 12px;
+    margin-bottom: 50px ;
+    font-size: 25px;
+}
+
+.button{
+    display: flex;
+    place-self: center;
+    width: 150px;
+    height: 50px;
+    background-color: black;
+    border-radius: 150px;
+    color: white;
+}
+
+.buttonText{
+    font-size: 50px;
+}
+
+.foto{
+    width: 45vw;
+    border-top-right-radius: 50px ;
+    border-bottom-right-radius: 50px ;
+}

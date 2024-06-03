@@ -1,0 +1,36 @@
+.containerpai{
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+.containerfilho{
+    width: 80vh;
+    height: 50vh;
+    background: white;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+.erro{
+    font-size: 150px;
+    margin-right: 20px;
+}
+.text{
+    font-size: 30px;
+    margin: 10px;
+    text-align: center;
+}
+.button{
+    border-radius: 50px;
+    width: 210px;
+    line-height: 50px;
+    background-color: black;
+    border: solid;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
